@@ -10,7 +10,7 @@ const Header = () => {
         animate={{ opacity: 1,x:0 }}
         transition={{ duration: 2, delay: 0.5 ,ease:easeInOut}}>
         <p className="text-6xl sm:text-9xl p-2 text-white">Hello !</p>
-        <p className="text-4xl sm:text-7xl p-2 text-white">I'm <span className="text-orange-500">Kolli Harsitha</span> ,</p>
+        <p className="text-3xl sm:text-7xl p-2 text-white">I'm <span className="text-orange-500">Kolli Harsitha</span> ,</p>
         <p className="text-xl sm:text-3xl p-2 text-white ">a Passionate Full Stack Web Developer Crafting Beautiful & Functional Websites. I'm looking for opportunities to collaborate, learn, and grow in the tech industry. Excited to connect and explore job opportunities in web development!</p>
       </motion.div>
       <motion.img src="/Photo.jpeg" alt="Photo" className="h-120 w-120 hidden sm:block rounded-xl shadow-[10px_10px_15px_rgba(189,131,63,0.2)] hover:scale-102 transition duration-200"        
