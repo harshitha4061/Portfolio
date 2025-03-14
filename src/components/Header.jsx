@@ -5,7 +5,7 @@ import { easeIn, easeInOut } from 'motion'
 const Header = () => {
   return (
     <div className="flex flex-col sm:flex-row w-full h-auto bg-gradient-to-b from-[#121110] to-[#1B1A19] p-8 sm:p-14 items-center ">
-        <motion.img src="/Photo.jpeg" alt="Photo" className="h-65 w-50 sm:hidden m-5 rounded-xl shadow-[10px_10px_15px_rgba(189,131,63,0.2)] hover:scale-102 transition duration-200"        
+        <motion.img src="/Photo.jpeg" alt="Photo" className="h-65 w-50 sm:hidden mt-0 m-5 rounded-xl shadow-[10px_10px_15px_rgba(189,131,63,0.2)] hover:scale-102 transition duration-200"        
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1,x:0 }}
         transition={{ duration: 2, delay: 0.5 ,ease:easeInOut}} />
