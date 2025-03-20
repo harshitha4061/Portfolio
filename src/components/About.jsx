@@ -5,7 +5,7 @@ import { easeInOut } from 'motion'
 const About = () => {
     return (
         <div id="aboutme" className='w-full h-auto p-8 sm:p-16 bg-[#1B1A19]  selection:bg-orange-500 selection:text-white border-b-[0.10px] border-white border-opacity-5'>
-            <motion.h1 className="text-3xl sm:text-6xl text-center sm:text-left pb-5 text-orange-500"
+            <motion.h1 className="text-3xl sm:text-6xl text-center sm:text-left pb-5 sm:pb-10 text-orange-500"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}

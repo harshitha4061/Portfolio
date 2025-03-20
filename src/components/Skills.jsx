@@ -10,7 +10,7 @@ const Education = () => {
     return (
         <div id="skillset">
             <div className="w-full h-auto p-8 sm:p-16 bg-[#1B1A19] flex flex-col  selection:bg-orange-500 selection:text-white border-b-[0.10px] border-white border-opacity-5" >
-                <motion.h1 className="text-3xl sm:text-6xl text-center pb-5 sm:pb-10 text-orange-500"
+                <motion.h1 className="text-3xl sm:text-6xl text-center pb-5 sm:pb-15 text-orange-500"
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
@@ -53,7 +53,7 @@ const Education = () => {
                         <VscVscode className="text-blue-500 hover:scale-110" title="VS Code" />
                     </motion.div>
                     <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}>
-                        <SiCanva className="text-blue-600" title="Canva" />
+                        <SiCanva className="text-blue-600 hover:scale-110" title="Canva" />
                     </motion.div>
                 </div>
 
