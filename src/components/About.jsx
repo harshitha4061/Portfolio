@@ -9,7 +9,7 @@ const About = () => {
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 1, delay: 0.5, ease: easeInOut }}>About Me</motion.h1>
+                transition={{ duration: 1, delay: 0.5, ease: easeInOut }}>ABOUT ME</motion.h1>
             <div className="flex flex-row">
                 <div className="w-full sm:w-[70%] flex flex-col " >
                     <motion.p className="text-md sm:text-xl text-white text-center sm:text-left "

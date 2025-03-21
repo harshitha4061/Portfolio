@@ -16,8 +16,8 @@ const Navbar = () => {
                 <ul className="hidden sm:flex flex-row">
                     <li> <a href="#aboutme" className='p-5 text-sm text-white font-extralight cursor-pointer hover:text-gray-500 hover:scale-110 hover:underline underline-offset-6 transition duration-200 inline-block'>About Me</a></li>
                     <li> <a href="#skillset" className='p-5 text-sm text-white font-extralight cursor-pointer hover:text-gray-500 hover:scale-110 hover:underline underline-offset-6 transition duration-200 inline-block'>Skills</a></li>
-                    <li> <a href="#contact" className='p-5 text-sm text-white font-extralight cursor-pointer hover:text-gray-500 hover:scale-110 hover:underline underline-offset-6 transition duration-200 inline-block'>Projects</a></li>
-                    <li> <a href="#project" className='p-5 text-sm text-white font-extralight cursor-pointer hover:text-gray-500 hover:scale-110 hover:underline underline-offset-6 transition duration-200 inline-block'>Contact</a></li>
+                    <li> <a href="#project" className='p-5 text-sm text-white font-extralight cursor-pointer hover:text-gray-500 hover:scale-110 hover:underline underline-offset-6 transition duration-200 inline-block'>Projects</a></li>
+                    <li> <a href="#contact" className='p-5 text-sm text-white font-extralight cursor-pointer hover:text-gray-500 hover:scale-110 hover:underline underline-offset-6 transition duration-200 inline-block'>Contact</a></li>
                 </ul>
 
             </div>

@@ -14,7 +14,7 @@ const Education = () => {
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 1, delay: 0.5, ease: easeInOut }}>Skills</motion.h1>
+                    transition={{ duration: 1, delay: 0.5, ease: easeInOut }}>SKILLS</motion.h1>
                 <div className="flex flex-wrap justify-center gap-6 text-6xl sm:text-8xl ">
                     <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}>
                         <FaHtml5 className="text-orange-600 hover:scale-110" title="HTML5" />
