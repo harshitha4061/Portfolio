@@ -5,6 +5,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Project from './components/Project'
 import Contact from './components/Contact'
+import Footer from './components/footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
        <Skills />
        <Project />
        <Contact />
+       <Footer />
     </div>
   )
 }
