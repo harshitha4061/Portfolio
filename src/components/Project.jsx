@@ -43,7 +43,7 @@ const Project = () => {
             </div>
             <div className='flex flex-col p-3'>
               <div className="flex justify-end">
-                <a href="https://github.com/harshitha4061/Fitwave_Project" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/harshitha4061/Lost_and_Found" target="_blank" rel="noopener noreferrer">
                   <FaExternalLinkAlt className="text-white text-xl hover:text-gray-600 transition duration-200" />
                 </a>
               </div>
@@ -59,77 +59,17 @@ const Project = () => {
           viewport={{ once: true }}
           transition={{duration:2,ease:easeInOut}}>
             <div className="w-full aspect-[16/9]">
-              <img src="lostandfound.png" alt="Lost and Found" className="w-full h-full object-cover" />
+              <img src="DOT.jpeg" alt="Lost and Found" className="w-full h-full object-cover" />
             </div>
             <div className='flex flex-col p-3'>
               <div className="flex justify-end">
-                <a href="https://github.com/harshitha4061/Fitwave_Project" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/harshitha4061/DELIVER-ON-TIME/tree/main" target="_blank" rel="noopener noreferrer">
                   <FaExternalLinkAlt className="text-white text-xl hover:text-gray-600 transition duration-200" />
                 </a>
               </div>
               <div className='p-2'>
-                <p className='text-xl text-center text-white'>Lost and Found</p>
-                <p className='text-center text-white text-xs'>(HTML, CSS, JavaScript, Express.js, Node.js, MongoDB)</p>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div className="w-83 h-75 border-[0.5px] border-white rounded-xl bg-[#1B1A19]  overflow-hidden m-5 hover:scale-105"
-          initial={{opacity:0,y:10}}
-          whileInView={{opacity:1,y:0}}
-          viewport={{ once: true }}
-          transition={{duration:2,ease:easeInOut}}>
-            <div className="w-full aspect-[16/9]">
-              <img src="lostandfound.png" alt="Lost and Found" className="w-full h-full object-cover" />
-            </div>
-            <div className='flex flex-col p-3'>
-              <div className="flex justify-end">
-                <a href="https://github.com/harshitha4061/Fitwave_Project" target="_blank" rel="noopener noreferrer">
-                  <FaExternalLinkAlt className="text-white text-xl hover:text-gray-600 transition duration-200" />
-                </a>
-              </div>
-              <div className='p-2'>
-                <p className='text-xl text-center text-white'>Lost and Found</p>
-                <p className='text-center text-white text-xs'>(HTML, CSS, JavaScript, Express.js, Node.js, MongoDB)</p>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div className="w-83 h-75 border-[0.5px] border-white rounded-xl bg-[#1B1A19]  overflow-hidden m-5 hover:scale-105"
-          initial={{opacity:0,y:10}}
-          whileInView={{opacity:1,y:0}}
-          viewport={{ once: true }}
-          transition={{duration:2,ease:easeInOut}}>
-            <div className="w-full aspect-[16/9]">
-              <img src="fitwave.jpeg" alt="Fitwave" className="w-full h-full object-cover" />
-            </div>
-            <div className='flex flex-col p-3'>
-              <div className="flex justify-end">
-                <a href="https://github.com/harshitha4061/Fitwave_Project" target="_blank" rel="noopener noreferrer">
-                  <FaExternalLinkAlt className="text-white text-xl hover:text-gray-600 transition duration-200" />
-                </a>
-              </div>
-              <div className='p-2'>
-                <p className='text-xl text-center text-white'>Fitwave</p>
-                <p className='text-center text-white text-sm'>(HTML, CSS, JavaScript, Flask ,MongoDB)</p>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div className="w-83 h-75 border-[0.5px] border-white rounded-xl bg-[#1B1A19]  overflow-hidden m-5 hover:scale-105"
-          initial={{opacity:0,y:10}}
-          whileInView={{opacity:1,y:0}}
-          viewport={{ once: true }}
-          transition={{duration:2,ease:easeInOut}}>
-            <div className="w-full aspect-[16/9]">
-              <img src="fitwave.jpeg" alt="Fitwave" className="w-full h-full object-cover" />
-            </div>
-            <div className='flex flex-col p-3'>
-              <div className="flex justify-end">
-                <a href="https://github.com/harshitha4061/Fitwave_Project" target="_blank" rel="noopener noreferrer">
-                  <FaExternalLinkAlt className="text-white text-xl hover:text-gray-600 transition duration-200" />
-                </a>
-              </div>
-              <div className='p-2'>
-                <p className='text-xl text-center text-white'>Fitwave</p>
-                <p className='text-center text-white text-sm'>(HTML, CSS, JavaScript, Flask ,MongoDB)</p>
+                <p className='text-xl text-center text-white'>Deliver on Time</p>
+                <p className='text-center text-white text-xs'>(Python, Pandas, NumPy, Seaborn, and Matplotlib)</p>
               </div>
             </div>
           </motion.div>
