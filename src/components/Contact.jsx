@@ -16,28 +16,33 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = { name, email, message };
-
+  
     try {
       const response = await fetch(import.meta.env.VITE_API_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
+        credentials: "include"  // Helps with some CORS issues
       });
-
+      
+  
       const result = await response.json();
-
+  
       if (response.ok) {
         alert("Message sent successfully!");
         setName("");
         setEmail("");
         setMessage("");
       } else {
-        alert("Failed to send message.");
+        console.error("Server Response:", result); 
+        alert(`Failed to send message: ${result.error || "Unknown error"}`);
       }
     } catch (error) {
-      alert("Error sending message.");
+      console.error("Fetch Error:", error);
+      alert("Error sending message. Check console for details.");
     }
   };
+  
 
   return (
     <div id="contact">
