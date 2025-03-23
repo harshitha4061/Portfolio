@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <div id="project" className='w-full h-auto'>
       <div className="bg-[#1B1A19] sm:bg-[url('/bg10.png')] bg-cover bg-center w-full h-full p-8 sm:p-16 border-b-[0.10px] border-white border-opacity-2">
-        <motion.h1 className="text-4xl sm:text-6xl text-left pb-5 sm:pb-10 px-5 text-orange-500 "
+        <motion.h1 className="text-3xl sm:text-6xl text-left pb-5 sm:pb-10 px-5 text-orange-500 "
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
