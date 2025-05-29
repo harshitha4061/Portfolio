@@ -17,7 +17,7 @@ const Header = () => {
         <p className="text-3xl sm:text-7xl p-2 text-white sm:text-left text-center">I'm <span className="text-orange-500">Kolli Harsitha</span> ,</p>
         <p className="text-md sm:text-3xl p-2 text-white sm:text-left text-center">a Passionate Full Stack Web Developer Crafting Beautiful & Functional Websites. I'm looking for opportunities to collaborate, learn, and grow in the tech industry. Excited to connect and explore job opportunities in web development!</p>
         <a
-          href="/Resume_Harshitha.pdf"
+          href="/Resume_Kolli_Harshitha.pdf"
           download
           className="self-center sm:self-start w-60 text-center bg-[#1B1A19] m-3  text-white border-[0.5px] border-white text-lg px-6 py-3 rounded-2xl hover:bg-white hover:text-black transition-colors"
         >

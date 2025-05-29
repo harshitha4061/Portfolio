@@ -17,7 +17,7 @@ const About = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 0.5, ease: easeInOut }}>
-                        Aspiring Information Technology undergraduate with knowledge of Computer Science principles, pursuing a Bachelor’s degree in Engineering with a CGPA of 9.48. Demonstrates practical experience in HTML, CSS, JavaScript, and Python. Successfully completed projects involving full-stack development, utilizing frameworks such as Node.js, Express.js, and Flask, along with databases like MongoDB.Seeking opportunities to leverage technical skills and contribute to innovative engineering projects in a collaborative team environment
+                        Aspiring Information Technology undergraduate with knowledge of Computer Science principles, pursuing a Bachelor’s degree in Engineering with a CGPA of 9.51. Demonstrates practical experience in HTML, CSS, JavaScript, and Python. Successfully completed projects involving full-stack development, utilizing frameworks such as Node.js, Express.js, and Flask, along with databases like MongoDB.Seeking opportunities to leverage technical skills and contribute to innovative engineering projects in a collaborative team environment
                     </motion.p>
                     <br />
                     <motion.p className="text-md sm:text-xl text-white text-center sm:text-left"
@@ -44,7 +44,7 @@ const About = () => {
                     <div className='border-l-2 px-5 my-2 border-white'>
                         <p className='text-white text-lg'>Chaitanya Bharathi Institute of Technology, Hyderabad</p>
                         <p className='text-orange-500 text-lg'>2022 - 2026</p>
-                        <p className='text-white text-lg'>CGPA (V Sem): <span className='text-orange-500 text-lg'>9.48 </span></p>
+                        <p className='text-white text-lg'>CGPA (V Sem): <span className='text-orange-500 text-lg'>9.51 </span></p>
                     </div>
                 </div>
             </div>

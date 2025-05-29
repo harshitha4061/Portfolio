@@ -123,7 +123,7 @@ const Project = () => {
             </div>
             <div className='flex flex-col p-3'>
               <div className="flex justify-end">
-                <a href="https://github.com/harshitha4061/DELIVER-ON-TIME/tree/main" target="_blank" rel="noopener noreferrer">
+                <a href="https://collegemaptracker.onrender.com" target="_blank" rel="noopener noreferrer">
                   <FaExternalLinkAlt className="text-white text-xl hover:text-gray-600 transition duration-200" />
                 </a>
               </div>
